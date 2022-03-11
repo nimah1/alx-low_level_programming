@@ -10,14 +10,12 @@ int main(void)
 	int integ;
 	long int longint;
 	long long int lonlongint;
+	float floo;
 
-	printf("size of char: \n",
-		sizeof(chartype));
-	printf("size of int: \n",
-		sizeof(integ));
-	printf("size of long int: \n",
-		sizeof(longint));
-	printf("size of long long int: \n",
-		sizeof(lonlongint));
+	printf("size of char: %d byte(s)\n",sizeof(chartype));
+	printf("size of int: %d byte(s)\n",sizeof(integ));
+	printf("size of long int: %ld byte(s)\n",sizeof(longint));
+	printf("size of long long int: %ld byte(s)\n",sizeof(lonlongint));
+	printf("size of float: %d byte(s)\n",sizeof(floo));
 	return (0);
 }
