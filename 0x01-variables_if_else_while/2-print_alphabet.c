@@ -2,7 +2,7 @@
 /**
  *main - Entry point
  *
- * return: returns 0
+ * Return: Always returns 0
  */
 int main(void)
 {
@@ -11,5 +11,6 @@ int main(void)
 	c = 'a';
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
+		putchar('\n');
 	return (0);
 }
