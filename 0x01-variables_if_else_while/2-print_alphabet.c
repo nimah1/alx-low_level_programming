@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  *main - Entry point
  *
- * Return: Always returns 0
+ *Return: Always returns 0
  */
 int main(void)
 {
@@ -11,6 +11,7 @@ int main(void)
 	c = 'a';
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
-		putchar('\n');
+	putchar('\n');
+		
 	return (0);
 }
