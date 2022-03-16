@@ -6,8 +6,12 @@
  */
 int main(void)
 {
-	char c = '_putchar';
+	char c[] = "_putchar";
 
-	_putchar(c);
+	_putchar; c;
 	return (0);
+}
+int _putchar(char c)
+{
+	return(write(1, &c, 1));
 }
