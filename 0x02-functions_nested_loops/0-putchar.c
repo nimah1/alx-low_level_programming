@@ -2,7 +2,7 @@
 /**
  *main - Entry point
  *
- *return: returns 0(success)
+ *Return: Always returns 0(success)
  *
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
+	_putchar('\n);
 
 	return (0);
 }
