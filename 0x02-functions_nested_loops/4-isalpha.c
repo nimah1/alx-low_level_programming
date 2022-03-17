@@ -4,7 +4,7 @@
  *
  *Return: returns 1 if positive and 0 if otherwise
  */
-int _isalpha(int c)
+int _isalpha(int)
 {
 	char c;
 
