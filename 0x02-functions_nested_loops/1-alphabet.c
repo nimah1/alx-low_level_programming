@@ -4,7 +4,7 @@
  *
  *
  */
-void printalphabet(void)
+void print_alphabet(void);
 {
 	int i = "a";
 
