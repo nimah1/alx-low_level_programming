@@ -6,7 +6,7 @@
  */
 int _isalpha(int c)
 {
-	int c;
+	char c;
 
 	_isalpha(c);
 	return (0);
