@@ -4,10 +4,8 @@
  *
  *Return: returns 1 if positive and 0 if otherwise
  */
-int _isalpha(void)
+int _isalpha(int c)
 {
-	char c;
-
 	_isalpha(c);
 	return (0);
 }

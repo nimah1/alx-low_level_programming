@@ -4,10 +4,8 @@
  *
  *Return: returns 1 if lowercase, returns 0 otherwise
  */
-int _islower(void)
+int _islower(int)
 {
-	int c;
-
 	_islower(c);
 	return (0);
 }
