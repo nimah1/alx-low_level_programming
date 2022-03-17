@@ -6,6 +6,6 @@
  */
 int _isalpha(int c)
 {
-	_isalpha(c);
+	isalpha(c);
 	return (0);
 }
