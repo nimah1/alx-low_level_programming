@@ -4,9 +4,9 @@
  *
  *Return: returns 1 if lowercase, returns 0 otherwise
  */
-int _islower(int)
+int _islower(void)
 {
-	char c;
+	int c;
 
 	_islower(c);
 	return (0);
