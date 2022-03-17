@@ -6,6 +6,6 @@
  */
 int _isalpha(int c)
 {
-	isalpha(c);
-	return (0);
+	if (isalpha(c))
+		return (0);
 }
