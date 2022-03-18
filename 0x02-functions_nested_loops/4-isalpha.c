@@ -9,6 +9,6 @@ int _isalpha(int c)
 {
 	int r;
 	
-	r = (( c >= 'A') && (c <= 'Z')) OR ((c >= 'a') && (c <= 'z'));
+	r = (( c >= 'A') && (c <= 'Z');) OR ((c >= 'a') && (c <= 'z'););
 	return (r);
 }
